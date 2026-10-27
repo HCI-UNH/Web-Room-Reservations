@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+  margin: 16px;
+}
+
+h1 { font-size: 24px; }
+h2 { font-size: 18px; }
+
+.layout {
+  display: flex;
+  gap: 16px;
+}
+
+.sidebar {
+  width: 25%;
+  padding: 8px;
+}
+
+.main {
+  width: 75%;
+  padding: 16px;
+}
+
+.sidebar a {
+  display: block;
+  margin: 4px 0;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 4px 0;
+}
+
+hr { 
+  margin: 8px 0; 
+}
+
+#error { 
+  color: #b00020; 
+}
